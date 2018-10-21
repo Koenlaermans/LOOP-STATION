@@ -13,5 +13,15 @@ public class Main {
         frame.pack();
 
         frame.setVisible(true);
+
+        Recorder rec = new Recorder();
+        rec.start();
+        try {
+            Thread.sleep(rec.RECORD_TIME);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        rec.finish();
+
     }
 }
