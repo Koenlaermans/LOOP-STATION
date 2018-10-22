@@ -11,7 +11,8 @@ public class Main {
         frame.setContentPane(new LoopStation().getMainPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-
         frame.setVisible(true);
+
+        LoopStation loopStation = new LoopStation();
     }
 }

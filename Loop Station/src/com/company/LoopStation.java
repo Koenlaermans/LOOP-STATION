@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class LoopStation extends JFrame{
 
     public LoopStation() {
+        rec = new Recorder();
         recordButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 record();
@@ -29,50 +30,13 @@ public class LoopStation extends JFrame{
     }
 
     private void record(){
-       try{
-           AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED,44100,16,2,4,44100,false);
-           DataLine.Info info = new DataLine.Info(TargetDataLine.class, format);
-           if(!AudioSystem.isLineSupported(info)) {
-               System.out.print("Line is niet gesupport\n");
-           }
-           targetLine = (TargetDataLine)AudioSystem.getLine(info);
-           targetLine.open();
-           targetLine.start();
-
-           thread = new Thread()
-           {
-               @Override public void run()
-               {
-                   AudioInputStream audioStream = new AudioInputStream(targetLine);
-
-
-                   Scanner scanner = new Scanner (System.in);
-                   System.out.print("Enter your filename\n");
-                   String fileName = scanner.next()+".wav";
-                   File audioFile = new File(fileName);
-                   try{
-                       AudioSystem.write(audioStream,AudioFileFormat.Type.WAVE,audioFile);
-                   }catch(Exception ex){
-                       System.out.print("Fail\n");
-                   }
-
-               }
-           };
-           thread.start();
-           System.out.print("Recording has started ! \n");
-
-       }catch(Exception ex){
-           System.out.print("Fail\n");
-       }
+       rec.startRecording();
 
     }
     private void addRecording(){
-
-        targetLine.stop();
-        targetLine.close();
-        System.out.print("Successfully recorded");
-
+        rec.stopRecording();
     }
+    private Recorder rec;
     private TargetDataLine targetLine;
     private Thread thread;
     private JPanel mainPanel;
