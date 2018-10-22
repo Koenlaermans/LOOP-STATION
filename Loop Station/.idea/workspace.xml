@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e7fd36-630a-4ac2-95b9-06ff05e848a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Loop Station/com/company/Recorder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Recorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dikzak.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loop Station/com/company/LoopStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Loop Station/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Loop Station/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LoopStation.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LoopStation.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LoopStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LoopStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +18,7 @@
     <session id="1531931765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -46,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="216" />
+          <entry key="java" value="238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="216" />
+          <entry key="JAVA" value="238" />
         </counts>
       </usages-collector>
     </session>
@@ -70,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Recorder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
+            <state relative-caret-position="-280">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#1086#1771#0" expanded="true" />
@@ -80,20 +73,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LoopStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/LoopStation.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -107,8 +96,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/LoopStation.java" />
         <option value="$PROJECT_DIR$/src/com/company/Recorder.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LoopStation.java" />
+        <option value="$PROJECT_DIR$/src/com/company/LoopStation.form" />
       </list>
     </option>
   </component>
@@ -226,7 +216,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540195784810" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540204970499" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,7 +269,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,14 +288,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Recorder.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#1086#1771#0" expanded="true" />
-            <element signature="e#1770#1771#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -315,26 +302,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/LoopStation.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Recorder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="-280">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#1086#1771#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LoopStation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LoopStation.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
 </project>

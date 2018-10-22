@@ -35,6 +35,7 @@ public class LoopStation extends JFrame{
     }
     private void addRecording(){
         rec.stopRecording();
+        success.setVisible(true);
     }
     private Recorder rec;
     private TargetDataLine targetLine;
@@ -43,4 +44,5 @@ public class LoopStation extends JFrame{
     private JTextArea FKLOOPSTATIONTextArea;
     private JButton recordButton;
     private JButton stopButton;
+    private JLabel success;
 }
